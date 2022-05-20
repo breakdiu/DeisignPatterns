@@ -26,9 +26,6 @@ public:
 	virtual  std::string Operation() const = 0;
 };
 
-/**
- * Concrete Products provide various implementations of the Product interface.
- */
 
 class ConcreteProduct1 :public Product {
 public:

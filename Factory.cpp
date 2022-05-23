@@ -122,7 +122,7 @@ void ClientCode(const Creator& creator) {
 * The app picks a creator's type depending on the configuration or environment.
 */
 
-int main() {
+int main1() {
 	std::cout << "App:Launched with the ConcreteCreator1.\n";
 	Creator* creator = new ConcreteCreator1();
 	ClientCode(*creator);
